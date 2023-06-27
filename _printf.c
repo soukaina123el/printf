@@ -20,7 +20,7 @@ return (-1);
 va_start(list, format);
 
 for (i = 0; format && format[i] != '\0'; i++)
-{
+1{
 if (format[i] != '%')
 {
 buffer[buff_ind++] = format[i];
